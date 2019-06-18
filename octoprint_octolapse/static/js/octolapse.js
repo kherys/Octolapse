@@ -1753,7 +1753,8 @@ $(function () {
         };
 
         self.onStartup = function() {
-            
+            self.requestData();
+        };            
 
 
     };
