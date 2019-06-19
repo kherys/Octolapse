@@ -525,6 +525,6 @@ $(function() {
     OCTOPRINT_VIEWMODELS.push({
         construct: TimelapseViewModel,
         dependencies: ["loginStateViewModel", "settingsViewModel"],
-        elements: ["#testfanfan"]
+        elements: ["#timelapsefiles"]
     });
 });
