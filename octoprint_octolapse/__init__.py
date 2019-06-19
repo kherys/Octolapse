@@ -1474,7 +1474,8 @@ class OctolapsePlugin(octoprint.plugin.SettingsPlugin,
                 "js/octolapse.profiles.rendering.js",
                 "js/octolapse.profiles.camera.js",
                 "js/octolapse.profiles.debug.js",
-                "js/octolapse.status.js"
+                "js/octolapse.status.js",
+                "js/finishedlapse.js"
             ],
             css=["css/jquery.minicolors.css", "css/octolapse.css"],
             less=["less/octolapse.less"])
