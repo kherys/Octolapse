@@ -1761,7 +1761,7 @@ $(function () {
     OCTOPRINT_VIEWMODELS.push([
         OctolapseViewModel
         , ["loginStateViewModel", "printerStateViewModel"]
-        , ["#octolapse"]
+        , ["#octolapse","#octolapse_tab"]
     ]);
 
 
