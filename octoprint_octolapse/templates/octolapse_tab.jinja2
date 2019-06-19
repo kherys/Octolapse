@@ -24,6 +24,8 @@
 <div id="octolapse">
     <!-- We need somewhere to bind the OctolapseViewModel-->
 </div>
+
+<div data-bind="template: 'testfanfan'"></div>
 <div id="octolapse_tab">
     <script>
         getLatestSnapshotUrl = function (camera_guid) {
@@ -210,3 +212,4 @@
 {% include "octolapse_status_position_state.jinja2" %}
 {% include "octolapse_tab_latest_snapshot.jinja2" %}
 {% include "octolapse_tab_settings_current.jinja2" %}
+{% include "test.jinja2" %}
