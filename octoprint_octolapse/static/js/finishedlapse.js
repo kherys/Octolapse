@@ -1,5 +1,5 @@
 $(function() {
-    function FinishedLapseViewModel(parameters) {
+    function FileLapseViewModel(parameters) {
         var self = this;
 
         self.loginState = parameters[0];
@@ -523,8 +523,8 @@ $(function() {
     }
 
     OCTOPRINT_VIEWMODELS.push({
-        construct: FinishedLapseViewModel,
+        construct: FileLapseViewModel,
         dependencies: ["loginStateViewModel", "settingsViewModel"],
-        elements: ["#finishedlapse"]
+        elements: ["#filelapse"]
     });
 });
